@@ -64,6 +64,12 @@ a:hover {
   position: relative;
 }
 
+.top-nav {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -367,25 +373,30 @@ a:hover {
 
 /* Extra small Device. */
 @media (max-width: 767px) {
-
-    .slider {
-        padding-top: 255px;
-    }
-    .slider .large img {
-        height: 235px;
-    }
-    .single-features p,
-    .single-features h4 {
-        font-size: 12px;
-    }
-    .pro-desc-title h3 {
-        font-size: 20px;
-    }
-    .single-features i {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+  .slider {
+    padding-top: 255px;
+  }
+  .slider .large img {
+    height: 235px;
+  }
+  .single-features p,
+  .single-features h4 {
+    font-size: 12px;
+  }
+  .pro-desc-title h3 {
+    font-size: 20px;
+  }
+  .single-features i {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
   .top-nav {
     justify-content: center;
+  }
+  .top-nav {
+    font-size: 12px;
+  }
+  .hdr-logo a img {
+    width: 100px;
   }
 }
